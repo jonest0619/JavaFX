@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mvn compile",
+      "type": "shell",
+      "command": "C:\\Users\\torij\\.maven\\maven-3.9.16\\bin\\mvn.cmd",
+      "args": ["compile"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "mvn test",
+      "type": "shell",
+      "command": "C:\\Users\\torij\\.maven\\maven-3.9.16\\bin\\mvn.cmd",
+      "args": ["test"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "group": "test",
+      "problemMatcher": []
+    },
+    {
+      "label": "javafx run",
+      "type": "shell",
+      "command": "C:\\Users\\torij\\.maven\\maven-3.9.16\\bin\\mvn.cmd",
+      "args": ["javafx:run"],
+      "options": { "cwd": "${workspaceFolder}" },
+      "problemMatcher": []
+    }
+  ]
+}
